@@ -38,18 +38,35 @@ const CONFIG = {
         {
           title: 'MovieWiki',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '영화 위키피디아 문서 형상관리 서비스',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://teamsparta.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb78890b5-f0ce-49eb-8c1c-075426099788%2Fmwmain.png?table=block&id=f3dd94f7-a8bf-4da7-98fc-20671e7180df&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=1730&userId=&cache=v2',
+          link: 'https://teamsparta.notion.site/MovieWiki-21-dbc8f76619b74d918b7721ebaf8c95ed',
         },
         {
-          title: 'RollingPaper',
+          title: '마음푸쉬',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '서로 롤링페이퍼를 통해 마음을 나누기 위해 시작한 나만의 롤링페이퍼 서비스'
+            ,
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://wood-art-566.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4cf110f4-f6ec-494b-a999-c8ef26c65656%2F%25EB%25A7%2588%25EC%259D%258C%25ED%2591%25B8%25EC%2589%25AC.png?table=block&id=722f22dc-394c-4c27-ba5d-2014b1f5163f&spaceId=4f30aec2-98c0-41cf-9b1d-b34886469f4b&width=580&userId=&cache=v2',
+          link: 'https://github.com/CodingOnRollingPaper/RollingPaper',
+        },
+        {
+          title: '반쪽',
+          description:
+            '나도 강아지! 반려인들을 위한 커뮤니티 서비스 반쪽',
+          imageUrl:
+            'https://camo.githubusercontent.com/c980addc0095ccac0ca81b6fa247c5059237903e0e2ad7874f11f860d38ebe29/68747470733a2f2f692e6962622e636f2f675651306d5a482f6c6f676f2e706e67',
+          link: 'https://github.com/kdt3rdMyhalf/myhalf#readme',
+        },
+        {
+          title: '점메추 (점심 메뉴 추천)',
+          description:
+            '이게 왜 없지? 라는 생각에 간단하게 만든 점심 메뉴 추천 크롬익스텐션',
+          imageUrl:
+            'https://lh3.googleusercontent.com/49oiLGao9R97EMGUV8D4qs9n8c_IKPXXGMXlj_P5BrXcEJpRFKW3dSoNTJflWWJNZjpD-UfST2v1kwC7Cs35unPf=s60',
+          link: 'https://chromewebstore.google.com/detail/%EC%A0%90%EB%A9%94%EC%B6%94/oaefomeoippfngdifjlhlbomapnggnnk?hl=ko',
         },
       ],
     },
@@ -80,17 +97,19 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://getype.s3.amazonaws.com/getype/1709835100950_ì¤ì±ì¸,BackendDeveloper581838a5d8a04de084538b7362220b9f.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
-    'React.js',
+    'TypeScript',
     'Node.js',
     'Nest.js',
+    'React.js',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
+    'AWS',
   ],
   experiences: [
     {
@@ -118,16 +137,22 @@ const CONFIG = {
   // ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: '항해 99 백엔드 개발자 과정 수료',
+      degree: '',
+      from: '2023',
+      to: '2023',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: '포스코 코딩온 웹개발자 과정 수료',
+      degree: '',
+      from: '2022',
+      to: '2022',
+    },
+    {
+      institution: '한양대학교 ERICA 한국언어문학 전공',
+      degree: '학사',
+      from: '2016',
+      to: '2022',
     },
   ],
   // publications: [
@@ -229,7 +254,7 @@ const CONFIG = {
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >GitProfile</a> and 👍`,
 
   enablePWA: true,
 };
