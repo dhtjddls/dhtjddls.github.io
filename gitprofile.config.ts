@@ -162,7 +162,7 @@ const CONFIG = {
   //   snippetVersion: 6,
   // },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'sunset',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -188,7 +188,6 @@ const CONFIG = {
       'cyberpunk',
       'valentine',
       'halloween',
-      'garden',
       'forest',
       'aqua',
       'lofi',
@@ -198,13 +197,11 @@ const CONFIG = {
       'black',
       'luxury',
       'dracula',
-      'cmyk',
       'autumn',
       'business',
       'acid',
       'lemonade',
       'night',
-      'coffee',
       'winter',
       'dim',
       'nord',
