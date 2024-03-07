@@ -114,7 +114,7 @@ const CONFIG = {
   experiences: [
     {
       company: '데브툴즈',
-      position: 'Backend Enginee',
+      position: 'Backend Engineer',
       from: 'January 2024',
       to: 'February 2024',
       companyLink: 'https://devtools.kr/#/',
@@ -137,20 +137,20 @@ const CONFIG = {
   // ],
   educations: [
     {
-      institution: '항해 99 백엔드 개발자 과정 수료',
-      degree: '',
+      institution: '팀스파르타',
+      degree: '항해 99 백엔드 개발자 과정 수료',
       from: '2023',
       to: '2023',
     },
     {
-      institution: '포스코 코딩온 웹개발자 과정 수료',
-      degree: '',
+      institution: '코딩온',
+      degree: '코딩온 포스코 웹개발자 과정 수료',
       from: '2022',
       to: '2022',
     },
     {
-      institution: '한양대학교 ERICA 한국언어문학 전공',
-      degree: '학사',
+      institution: '한양대학교 ERICA',
+      degree: '한국언어문학 전공',
       from: '2016',
       to: '2022',
     },
